@@ -1,0 +1,349 @@
+ * {
+     background-color: #FEEC10;
+     padding: 0;
+     margin: 0;
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 7px 120px;
+     height: 50px;
+ }
+
+
+
+ nav span {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+
+
+
+ }
+
+ .aw {
+
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: 20px;
+     font-weight: bolder;
+     padding: 0 0 0 10px
+ }
+
+
+ nav img {
+     width: 50px;
+     border: 2px solid black;
+     border-radius: 5px;
+
+ }
+
+
+
+ nav span button {
+     padding: 5px;
+     border-radius: 5px;
+     font-size: 15px;
+     width: 70px;
+     height: 30px;
+
+ }
+
+
+ nav span button:hover {
+     background-color: white;
+     color: brown;
+ }
+
+ main {
+     background-image: url(accessories/01.jpg);
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: max(1200px 100vh);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 80vh;
+     position: relative;
+     gap: 20px 0 20px 0;
+ }
+
+ main> :first-child {
+
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 50px;
+     font-weight: bolder;
+     background-color: black;
+     color: yellow;
+     text-align: center;
+     padding: 0 12px;
+
+
+
+ }
+
+ main> :nth-child(2) {
+     margin: 15px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 30px;
+     font-weight: bolder;
+     text-align: center;
+     background-color: black;
+     color: yellow;
+     padding: 3px 12px;
+
+ }
+
+ main> :last-child {
+     background-color: transparent;
+     color: transparent;
+     border-radius: 50px;
+     box-sizing: border-box;
+     border-color: solid white;
+ }
+
+ .qw {
+     margin-top: 15px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 16px;
+     padding-top: 50px;
+ }
+
+ .qw input {
+     padding: 7px 101px 8px 14px;
+     font-weight: 900;
+     font-size: 12px;
+     border-radius: 4px;
+     background-color: rgba(23, 23, 23, 0.7);
+     border: 1px solid white;
+
+ }
+
+ .qw button {
+     border-radius: 4px;
+     padding: 7px 14px 8px 14px;
+
+ }
+
+ .qw button:hover {
+     background-color: white;
+     color: brown;
+
+ }
+
+ .separation {
+     height: 5px;
+     background-color: rgb(88, 88, 88);
+ }
+
+ section {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     height: 50vh;
+     margin: 0;
+     padding: 0;
+ }
+
+ .gh {
+     width: 26vw;
+     height: 36vh;
+ }
+
+ .jk {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 40vw;
+     gap: 20px;
+ }
+
+ .jk div {
+     font-family: sans-serif;
+     font-size: 50px;
+     font-weight: bolder;
+ }
+
+ .jk p {
+     align-items: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 25px;
+     font-weight: 400;
+     text-align: center;
+ }
+
+ .box {
+     height: auto;
+     width: auto;
+     background-color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .rt {
+     padding-top: 12px;
+     color: aliceblue;
+     font-family: sans-serif;
+     font-size: 40px;
+     font-weight: bolder;
+     background-color: transparent;
+ }
+
+ .er {
+     height: 10vh;
+     width: 70vw;
+     margin: 30px;
+     padding-left: 10px;
+     background-color: gray;
+     color: aliceblue;
+     text-align: left;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     font-family: sans-serif;
+     font-size: 30px;
+     font-weight: bolder;
+
+
+ }
+
+ .mn {
+     cursor: pointer;
+     background-color: transparent;
+ }
+
+ .mn :hover {
+     background-color: antiquewhite;
+ }
+
+ .box2 {
+     height: auto;
+     width: auto;
+     background-color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .Questions {
+     padding: 6px 80px;
+     color: white;
+     font-size: larger;
+     font-weight: bolder;
+
+ }
+
+ .footer-items {
+     margin: 20px;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+
+ .footer {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+
+
+ }
+
+ .footer a {
+     text-decoration: none;
+     padding: 10px;
+     color: black;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .footer :hover {
+     color: gold;
+ }
+
+ @media screen and (max-width:1300px) {
+     nav {
+         height: 30px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 7px 70px;
+
+     }
+
+     nav img {
+         width: 30px;
+         border: 2px solid black;
+         border-radius: 5px;
+     }
+
+     .aw {
+         font-size: 15px;
+     }
+
+     nav span button {
+         width: 50px;
+         height: 25px;
+         font-size: 10px;
+     }
+
+     main {
+         height: 60vh;
+     }
+
+     main> :first-child {
+         font-size: 25px;
+
+     }
+
+     main> :nth-child(2) {
+         font-size: 20px;
+     }
+
+     section {
+         height: 40vh;
+         padding: 0 10px;
+     }
+
+     .gh {
+         width: 40vw;
+         height: 12vh;
+     }
+
+     .jk {
+         width: 350px;
+     }
+
+     .jk div {
+         font-size: 20px;
+     }
+
+     .jk p {
+         font-size: 13px;
+     }
+
+     .rt {
+
+         font-size: 25px;
+
+     }
+
+     .er {
+         width: 85vw;
+         height: 5vh;
+         font-size: 16px;
+     }
+
+     .footer-items {
+         grid-template-columns: 1fr 1fr;
+     }
+
+     .footer a {
+         padding: 5px;
+     }
+
+ }
